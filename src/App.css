@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+table.content-middle tbody tr td {
+  vertical-align: middle;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:active:focus, .btn-primary:active:hover {
+  background-color: #1e232b;
+  border-color: #111317;
+}
+
+@keyframes react-progress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.react-progress-bar {
+  position: relative;
+  height: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+  transition: all 400ms;
+  /*z-index: 9999;*/
+}
+
+.react-progress-bar.react-progress-bar-on-top {
+  height: 100%;
+}
+
+.react-progress-bar.react-progress-bar-hide {
+  opacity: 0;
+  visibility: hidden;
+  z-index: -10;
+}
+
+.react-progress-bar-percent {
+  height: 2px;
+  background: #677bc4;
+  box-shadow: 0 0 10px #677bc4, 0 0 5px #677bc4;
+  transition: all 200ms ease;
+}
+
+.react-progress-bar-spinner {
+  display: block;
+  position: fixed;
+  top: 15px;
+}
+
+.react-progress-bar-spinner-left {
+  left: 15px;
+  right: auto;
+}
+
+.react-progress-bar-spinner-right {
+  left: auto;
+  right: 15px;
+}
+
+.react-progress-bar-spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border: solid 2px transparent;
+  border-top-color: #29d;
+  border-left-color: #29d;
+  border-radius: 50%;
+  animation: react-progress-spinner 400ms linear infinite;
+}
+
+.color-white {
+  color: white !important;
+}
+
+a.active i {
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-header.nav-header-right {
+    width: 100%;
+  }
+  ul.nav-header.nav-header-left, .nav-header.nav-header-left li{
+    width: 100%;
+  }
+  .nav-header.nav-header-left li {
+    margin-top: 5px
+  }
+  .header-navbar-fixed #main-container {
+    padding-top: 99px;
+  }
+}
+
+.modal-header .close {
+  color: white;
+}
+
+.table .column-delete {
+  width: 59px;
+}
+
+td.table-actions-double {
+  width: 105px;
+}
+
+.table-floating {
+  box-shadow: 0 0 6px rgba(0,0,0,.1);
+  background-color: white;
+  margin-bottom: 30px;
+}
+.table-floating .table {
+  margin-bottom: 0;
+}
+
+.block.block-opt-refresh:after {
+  font-family: FontAwesome;
+  content: "\f110";
+}
+
+hr.hr-dark {
+  border-color: #2d343f;
+}
+
+a.nav-submenu {
+  cursor: pointer;
+}
