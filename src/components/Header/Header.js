@@ -17,7 +17,7 @@ class Header extends PureComponent {
         </li>
         {/* <li className='pull-right'>
           <a className='btn btn-minw btn-rounded btn-primary' type='button'
-            href='https://github.com/Paulo/PBbot' target='_blank'
+            href='https://github.com/Grizafis/PBbot' target='_blank'
             rel='noopener noreferrer'
             style={{'backgroundColor': '#677bc4', 'border': 'none'}}>
             <i className='fab fa-github' style={{'fontWeight': 500}} /> GitHub

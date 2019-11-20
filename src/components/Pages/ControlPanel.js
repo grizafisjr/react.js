@@ -16,11 +16,11 @@ class ControlPanel extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      botRunning: window.PauloBot.botRunning,
+      botRunning: window.Grizafis.botRunning,
       starting: false,
       restarting: false,
       stopping: false,
-      setCommunity: window.PauloBot.community,
+      setCommunity: window.Grizafis.community,
       toUser: {
         name: '',
         amount: 0
@@ -139,7 +139,7 @@ class ControlPanel extends Component {
   handleStartResponse (response) {
     if (response.type === 'success') {
       this.setState({botRunning: true})
-      window.PauloBot.botRunning = true
+      window.Grizafis.botRunning = true
       toast.success(response.text)
     } else {
       toast.error(response.text)
@@ -164,7 +164,7 @@ class ControlPanel extends Component {
   handleStopResponse (response) {
     if (response.type === 'success') {
       this.setState({botRunning: false})
-      window.PauloBot.botRunning = false
+      window.Grizafis.botRunning = false
       toast.success(response.text)
     } else {
       toast.error(response.text)

@@ -278,8 +278,8 @@ class Starcraft extends Component {
 
       <Block header={'MMR PROGRESSION OVERLAY'} secondary='only works with a valid sc2 profile' dark loading={this.props.loading}>
         <div className='block-content'>
-          <img className='img-responsive' style={{'maxWidth': '200px'}} src='http://images.PauloBot.com/sc/mmr-overlay.jpg' alt='' />
-          <h4><a href={'https://www.PauloBot.com/mmr/' + this.state['sc2-token']}>{'https://www.PauloBot.com/mmr/' + this.state['sc2-token']}</a></h4>
+          <img className='img-responsive' style={{'maxWidth': '200px'}} src='http://images.Grizafis.com/sc/mmr-overlay.jpg' alt='' />
+          <h4><a href={'https://www.Grizafis.com/mmr/' + this.state['sc2-token']}>{'https://www.Grizafis.com/mmr/' + this.state['sc2-token']}</a></h4>
           <p>Just add this link to your OBS (or streaming software of your choice) as Browser Source</p>
           <p>height: 350px, width: 200px works best</p>
         </div>
@@ -457,7 +457,7 @@ class Starcraft extends Component {
           </ul>
         </div>
         <div className='block-content'>
-          <img className='img-responsive' src='http://images.PauloBot.com/helper.jpg' style={{'maxWidth': '425px'}} alt='' />
+          <img className='img-responsive' src='http://images.Grizafis.com/helper.jpg' style={{'maxWidth': '425px'}} alt='' />
         </div>
 
         <div className='block-content'>
@@ -522,7 +522,7 @@ class Starcraft extends Component {
         </div>
         <div className='block-content'>
           <p>
-            <a href='http://downloads.PauloBot.com/HonyHelper0.4.2.zip' className='btn btn-primary'>Download</a>
+            <a href='http://downloads.Grizafis.com/HonyHelper0.4.2.zip' className='btn btn-primary'>Download</a>
           </p>
         </div>
       </div>

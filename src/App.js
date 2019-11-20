@@ -28,7 +28,7 @@ class App extends Component {
     super(props)
     this.state = {
       pageTitle: 'Control Panel',
-      currencyName: window.PauloBot.currencyName,
+      currencyName: window.Grizafis.currencyName,
       loading: {
         active: false,
         percent: 20

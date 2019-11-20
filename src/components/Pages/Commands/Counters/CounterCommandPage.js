@@ -54,7 +54,7 @@ class CounterCommandPage extends Component {
       <td>{counter['counter-name']}</td>
       <td>{counter.value}</td>
       <td>{counter.default}</td>
-      <td><a href={counter.path}>paulobot.com{counter.path}</a></td>
+      <td><a href={counter.path}>Grizafisbot.com{counter.path}</a></td>
       <td>{counter.commands}</td>
       <td>
         <button className='btn btn-danger' onClick={() => { this.deleteCounter(counter['counter-name']) }}><i className='fa fa-trash icon-large' /></button>

@@ -84,7 +84,7 @@ class Sidebar extends Component {
             </button> */}
 
             <a className='h5 text-white' href='/'>
-              <img src={React_icon} width='32' height='32' alt='' /> <span className='h4 font-w600 sidebar-mini-hide'>Paulo BB Service</span>
+              <img src={React_icon} width='32' height='32' alt='' /> <span className='h4 font-w600 sidebar-mini-hide'>Grizafis BB Service</span>
             </a>
           </div>
           {/* END Side Header */}
@@ -105,7 +105,7 @@ class Sidebar extends Component {
               </li>
 
               <li>
-                <a target='_blank' href={'/streamers/' + window.PauloBot.username + '/leaderboard'}>
+                <a target='_blank' href={'/streamers/' + window.Grizafis.username + '/leaderboard'}>
                   <i className='fas fa-list-ol fa-lg' />
                   <span className='sidebar-mini-hide'> Leaderboard <small style={{fontSize: '66%', verticalAlign: 'middle'}}>&nbsp;<i className='fas fa-external-link-alt' /></small></span>
                 </a>

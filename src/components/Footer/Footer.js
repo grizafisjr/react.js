@@ -9,7 +9,7 @@ class Footer extends PureComponent {
     return <footer id='page-footer' className='content-mini content-mini-full font-s12 bg-gray-lighter clearfix'>
       <div className='row'>
         <div className='col-sm-6 col-xs-12'>
-          <i className='fa fa-twitter' aria-hidden='true' /><a className='font-w600' href='https://www.twitter.com/PauloBot'>PauloBot</a> - A Twitchbot by <a className='font-w600' href='https://www.twitter.com/PauloBB'>PauloBB</a>
+          <i className='fa fa-twitter' aria-hidden='true' /><a className='font-w600' href='https://www.twitter.com/Grizafis'>Grizafis</a> - A Twitchbot by <a className='font-w600' href='https://www.twitter.com/GrizafisBB'>GrizafisBB</a>
         </div>
         <div className='col-sm-6 col-xs-12'>
           <div className='text-right'>

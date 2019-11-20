@@ -5,7 +5,7 @@ import Block from '../../OneUI/Block'
 class PlannedFeaturesPage extends Component {
   render () {
     let header = 'Planned Features'
-    let secondary = <span>&nbsp;- submit your idea via twitter <a href='https://www.twitter.com/PauloBot'> @PauloBot</a> or <a href='https://www.twitter.com/HollySC2'> @HollySC2</a></span>
+    let secondary = <span>&nbsp;- submit your idea via twitter <a href='https://www.twitter.com/Grizafis'> @Grizafis</a> or <a href='https://www.twitter.com/HollySC2'> @HollySC2</a></span>
 
     return <Block header={header} secondary={secondary} dark>
       <div className='pull-r-l'>
@@ -70,7 +70,7 @@ class PlannedFeaturesPage extends Component {
             </td>
             <td>
               <span className='font-w600' data-toggle='modal'>
-                  List all available commands on PauloBot.com/streamers/name
+                  List all available commands on Grizafis.com/streamers/name
               </span>
             </td>
             <td className='hidden-xs hidden-sm hidden-md text-muted' style={{width: 150}}><em>Usability</em></td>
@@ -103,7 +103,7 @@ class PlannedFeaturesPage extends Component {
             </td>
             <td>
               <span className='font-w600' data-toggle='modal'>
-                  Let users bet on PauloBot.com directly, in addition (or alternatively) to chat
+                  Let users bet on Grizafis.com directly, in addition (or alternatively) to chat
               </span>
             </td>
             <td className='hidden-xs hidden-sm hidden-md text-muted' style={{width: 150}}><em>Starcraft 2</em></td>

@@ -5,7 +5,7 @@ import Block from '../../OneUI/Block'
 class BugtrackerPage extends Component {
   render () {
     let header = <span>Known Bugs and Problems</span>
-    let secondary = <span>&nbsp;- submit via twitter <a href='https://www.twitter.com/PauloBot'> @PauloBot</a> or <a href='https://www.twitter.com/PauloSC2'> @HollySC2</a></span>
+    let secondary = <span>&nbsp;- submit via twitter <a href='https://www.twitter.com/Grizafis'> @Grizafis</a> or <a href='https://www.twitter.com/Grizafis'> @HollySC2</a></span>
 
     return <React.Fragment>
       <Block header={header} secondary={secondary} dark>
